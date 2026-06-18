@@ -1,0 +1,81 @@
+[
+  {
+    "strName" : "ItmVendingMachineCoffee",
+    "strNameShort" : "Coffee Machine",
+    "strItemDef" : "ItmVendingMachineCoffee",
+    "strNameFriendly" : "Coffee Machine: Moretti \"Napoletano\"",
+    "strDesc" : "Despite their popularity, most corporate ships do not feature coffee machines, so as to not allow the crew to waste time socialising around a relaxing hot pouch of coffee. This makes the machines on stations all the more popular.",
+    "strLoot"    : "ItmVendingMachineCoffee",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+	  "IsCoffeeMachine=1.0x1",
+      "IsFireproof=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsContainer=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsWaterproof=1.0x1",
+      "StatBasePrice=1.0x4885.00",
+      "StatDismantleProgressMax=1.0x240",
+      "StatInstallProgressMax=1.0x300",
+      "StatUninstallProgressMax=1.0x300",
+      "StatMass=1.0x31.0",
+      "StatDamageMax=1.0x6",
+      "IsTechnology=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTTechDestroy,StatDamageMax,1.0"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolid",
+    "mapPoints"      : [
+      "use,24,0"
+    ],
+    "strPortraitImg"  : "ItmVendingMachineCoffee"
+  },
+  {
+    "strName" : "ItmVendingMachineCoffeeLoose",
+    "strNameShort" : "Coffee Machine",
+    "strItemDef" : "ItmVendingMachineCoffeeLoose",
+    "strNameFriendly" : "Coffee Machine: Moretti \"Napoletano\" (Loose)",
+    "strDesc" : "Despite their popularity, most corporate ships do not feature coffee machines, so as to not allow the crew to waste time socialising around a relaxing hot pouch of coffee. This makes the machines on stations all the more popular.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsCoffeeMachine=1.0x1",
+      "IsFireproof=1.0x1",
+      "IsContainer=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsWaterproof=1.0x1",
+      "StatBasePrice=1.0x4885.00",
+      "StatDismantleProgressMax=1.0x240",
+      "StatInstallProgressMax=1.0x300",
+      "StatUninstallProgressMax=1.0x300",
+      "StatMass=1.0x31.0",
+      "StatDamageMax=1.0x6",
+      "IsMechanical=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolid",
+    "nContainerHeight"  : 6,
+    "nContainerWidth"  : 6,
+    "mapPoints"      : [
+      "use,24,0"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTFridge01LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmVendingMachineCoffee"
+  }
+]

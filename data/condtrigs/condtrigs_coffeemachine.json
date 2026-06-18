@@ -1,0 +1,4 @@
+[
+  { "strName" : "TIsVendingMachineCoffeeUninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsCoffeeMachine" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsVendingMachineCoffeeInstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsCoffeeMachine", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "strName" : "ItmVendingMachineCoffeeLoose",
+    "strImg"  : "ItmVendingMachineCoffee",
+    "strImgNorm"  : "ItmFridge01Loosen",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintNone",
+    "fZScale"  : 0.5,
+    "nCols"  : 2,
+    "aSocketAdds"    : [
+      "TILItemAdds", "TILItemAdds",
+      "TILItemAdds", "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  }
+]
